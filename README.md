@@ -69,4 +69,5 @@ attendance/attendance.csv
 
 ## Author
 
-**Vaishnavi Veera**
+**Vaishnavi Veera**# AI_project
+My first AI project 
