@@ -13,9 +13,15 @@ if not os.path.exists(student_path):
 
 # Load Haar Cascade
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+if face_cascade.empty():
+    print("Error: Could not load Haar Cascade file.")
+    exit()
 
 # Open webcam
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0,cv2.CAP_DSHOW)
+if not cap.isOpened():
+    print("Error: Could not open webcam.")
+    exit()
 
 count = 0
 
