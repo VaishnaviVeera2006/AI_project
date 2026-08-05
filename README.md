@@ -1,30 +1,32 @@
-# AI Face Recognition Attendance System
+# 🎓 AI Face Recognition Attendance System
+
+An AI-based Face Recognition Attendance System developed using Python and OpenCV.
 
 ## 📌 Overview
-This project is an AI-based Face Recognition Attendance System developed using Python and OpenCV.
 
-It captures student faces, trains a recognition model, identifies students through a webcam, and automatically marks attendance in a CSV file.
+This project captures student faces, trains a face recognition model, recognizes students through a webcam, and automatically records attendance in a CSV file.
 
-## 🚀 Features
+## ✨ Features
 
 - Face Registration
 - Face Detection
 - Face Recognition
 - Automatic Attendance
 - CSV Attendance Report
-- Real-time Webcam Detection
+- Easy to Use Interface
 
 ## 🛠 Technologies Used
 
 - Python
 - OpenCV
 - NumPy
-- Pillow
+- Pandas
 
-## Project Structure
+## 📂 Project Structure
 
 ```
-AI_PROJECT/
+AI_project/
+│
 ├── dataset/
 ├── trainer/
 ├── attendance/
@@ -32,42 +34,44 @@ AI_PROJECT/
 ├── train_model.py
 ├── face_recognition.py
 ├── face_detection.py
-└── haarcascade_frontalface_default.xml
+├── requirements.txt
+└── README.md
 ```
 
-## How to Run
+## ▶️ Installation
 
-### 1. Install requirements
+Install the required libraries:
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
-### 2. Register Face
+## ▶️ How to Run
 
-```
+### Register a Face
+
+```bash
 python face_register.py
 ```
 
-### 3. Train Model
+### Train the Model
 
-```
+```bash
 python train_model.py
 ```
 
-### 4. Start Attendance
+### Start Face Recognition
 
-```
+```bash
 python face_recognition.py
 ```
 
-Attendance will be saved automatically in:
+Attendance will be saved in:
 
 ```
 attendance/attendance.csv
 ```
 
-## Author
+## 👩‍💻 Author
 
-**Vaishnavi Veera**# AI_project
-My first AI project 
+**Vaishnavi Veera**
